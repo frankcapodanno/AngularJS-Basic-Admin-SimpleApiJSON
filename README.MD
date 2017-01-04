@@ -1,4 +1,5 @@
 # SimpleApiJSON
 This software is  used to give a simple JSON resource for the AngularJS Frontend application( http://http://capodanno.click/bootstrap-examples/angularjs-admin-basic).
-This application is designed for a glassfish server and uses entities and EJB Facades for improve multi-threads requests.
+The webservice is on a glassfish server and uses objects entities related to the database(MYSQL). The servlet for the web service use session beans with entities (EJB) that improve the availability in multi-threads requests. The parser json is programmed from the scratch. This type of web service is just for evaluate proposes and not is useful when the resources would be enormous (but is useful and effective for simple account interfaces). Normally I use Jackson libraries and Gson (from google). This web service is very simple and return just the data that is useful in frontend. This web service work with cross-origin domain that in production needs more security. To improve security is important that the web service accepts just SSL requests, SSL encrypted sessions and uses security tokens. In a Enterprise Application is important and useful to create JSP pages that support EL syntax and create templates.
+
 More information find you in AngularJS Template Basic for JAVA Web Applications (https://github.com/frankcapodanno/AngularJS-Basic-Admin)
